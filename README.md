@@ -6,7 +6,7 @@ balena enabled GPS NTP timeserver with gpsd and chronyd.
 
 Get yourself an GPS module that works with this setup, wire it to your RPi and deploy the application with balena.
 
-[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/nmaas87/gpsTime)
+[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/XTE-Ltd/gpsTime)
 
 ## Variables
 
