@@ -21,7 +21,7 @@ data:
     - BALENA_HOST_CONFIG_dtoverlay: "disable-bt"
     - BALENA_HOST_CONFIG_enable_uart: 1
   applicationEnvironmentVariables:
-    - PPS-GPIO: GPIOPIN=18
+    - PPS-GPIO: "GPIOPIN=18"
     - BAUD: 115200
     - ALLOW: "all"
     - OFFSET: "0.0"
