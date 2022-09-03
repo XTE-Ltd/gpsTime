@@ -22,7 +22,7 @@ data:
     - BALENA_HOST_CONFIG_enable_uart: 1
   applicationEnvironmentVariables:
     - PPS-GPIO: GPIOPIN=18
-    - BAUD: 11500
+    - BAUD: 115200
     - ALLOW: "all"
     - OFFSET: "0.0"
   defaultDeviceType: raspberrypi4-64
