@@ -18,7 +18,7 @@ assets:
         https://raw.githubusercontent.com/XTE-Ltd/gpsTime/main/hub-logo.png
 data:
   applicationConfigVariables:
-    - BALENA_HOST_CONFIG_dtoverlay: "pps-gpio"
+    - BALENA_HOST_CONFIG_dtoverlay: "pps-gpio,gpiopin=18,capture_clear"
     - BALENA_HOST_CONFIG_enable_uart: 1
   applicationEnvironmentVariables:
     - BAUD: 115200
